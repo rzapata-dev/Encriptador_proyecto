@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />    
+  </head>
+
+  <body>
+    <div id="toast-container" class="toast-container"></div>
+    <header>
+      <div class="header">
+        <img
+          class="header__logo"
+          src="./assets/logoAlura.svg"
+          alt="Logo de Alura"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <div class="main__izquierda">
+          <textarea id="ingresoTexto"  class="main__textarea" placeholder="Ingrese texto aqui"></textarea>
+
+          <div class="main__izquierda__footer">
+          <img class="imagen_exclamacion" src="./assets/exclamacion.svg" alt="imagen exclamacion" />
+
+          <span class="derecha_info">Solo letras minusculas y sin acentos
+          </span>
+
+          <div class="main__izquierda__botones">
+          <button id="botonEncriptar" class="boton_encriptar">Encriptador</button>
+          <button id="botonDesencriptar" class="boton_desencriptar">Desencriptar</button>
+          </div>
+
+          </div>
+        </div>
+
+        <div id="derecha" class="derecha">
+          <img id="munheco" class="munheco" src="./assets/muñeco.svg" alt="Muñeco ilustrativo" />
+
+          <textarea id="mensajeFinal" class="mensaje_final" placeholder="Ningun mensaje fue encontrado" readonly></textarea>
+
+          <p id="mensajeInfo" class="mensaje_info">Ingresa texto que desees encriptar o desencriptar</p>
+
+          <button id="botonCopiar" class="boton_copiar oculto">copiar</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <p class="footer__name">© 2024 Derechos Reservados - Desarrollado por Richard Zapata</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/app.js"></script>
+</html>
