@@ -44,7 +44,7 @@ cd proyecto-final-encriptador
 
 ![oracle_movil](https://github.com/user-attachments/assets/8ca6e7c1-3e48-4377-86e2-0029c3c4b696)
 
-### ¿Cómo encripta el texto? 🛡️
+### 🛡️ ¿Cómo encripta el texto? 
 
 El proceso de codificación sigue un patrón simple, donde cada vocal es sustituida por una secuencia de caracteres específicos:
 
