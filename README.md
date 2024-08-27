@@ -42,4 +42,20 @@ cd proyecto-final-encriptador
 
 ## 📱 Responsivo
 
+![oracle_movil](https://github.com/user-attachments/assets/8ca6e7c1-3e48-4377-86e2-0029c3c4b696)
 
+### ¿Cómo encripta el texto? 🛡️
+
+El proceso de codificación sigue un patrón simple, donde cada vocal es sustituida por una secuencia de caracteres específicos:
+
+- **"e"** se convierte en **"enter"**
+- **"i"** se convierte en **"imes"**
+- **"a"** se convierte en **"ai"**
+- **"o"** se convierte en **"ober"**
+- **"u"** se convierte en **"ufat"**
+
+Esta transformación permite que el texto se encripte de manera básica pero efectiva.
+
+### 🌐 Enlace a la Página
+
+Visita la aplicación en el siguiente enlace: [Mi Proyecto de Encriptación](https://encriptador-proyecto.vercel.app/)
