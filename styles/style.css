@@ -40,7 +40,7 @@ textarea {
   margin: auto 40px auto auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  min-height: calc(100vh - 100px - 51px);
+  min-height: calc(100vh - 100px - 105px);
   align-items: end;
 }
 
@@ -166,8 +166,6 @@ textarea {
 .oculto {
   display: none;
 } 
-
-
 
 .footer {
   background: var(--color-blue);
