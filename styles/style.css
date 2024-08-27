@@ -4,9 +4,8 @@
   --color--background: #f3f5fc;
   --color-blue: #0a3871;
   --color--gray: #343A40;
-  --color--gris: #d8dfe8;
-  
 
+  --color--boton: #d8dfe8;
   --fuente--Inter: "Inter", sans-serif;
  
 }
@@ -99,7 +98,7 @@ textarea {
 }
 
 .boton_desencriptar {
-  background: var(--color--gris);
+  background: var(--color--boton);
   color: var(--color-blue);
 }
 
@@ -171,13 +170,14 @@ textarea {
 
 
 .footer {
-  background:none;
-  color: rgb(3, 3, 3);
+  background: var(--color-blue);
+  color: rgb(232, 228, 228);
   padding: 15px 0;
   text-align: center;
   position: relative; 
   width: 100%;
   bottom: 0;
+  margin-top: 3rem;
 }
 
 .footer__content {
@@ -187,8 +187,11 @@ textarea {
 }
 
 .footer__name {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-bottom: 2.5px;
+  font-weight: 500;
+  font-family: var(--fuente--Inter);
+
 }
 
 /*toast*/
@@ -268,6 +271,11 @@ textarea {
   .munheco {
     display: none;
   }
+
+  /* .footer{
+    margin-top: 2rem;
+    background: salmon;
+  } */
 }
 
 @media screen and (max-width: 440px) {
